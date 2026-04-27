@@ -1,6 +1,6 @@
 {
-  "watchlist": ["BTCUSDT"],
-  "default_timeframe": "1",
+  "watchlist": ["MNQ1!", "MGC1!", "MES1!", "M2K1!"],
+  "default_timeframe": "2-minute",
 
   "strategy": {
     "name": "10-Second Momentum Scalper",
@@ -9,7 +9,7 @@
       "RSI filter — only trade when RSI is not at an extreme (30–70 range)"
     ],
     "primary_timeframes": [
-      "1-minute (signal source)",
+      "2-minute (signal source)",
       "10-second execution loop"
     ]
   },
